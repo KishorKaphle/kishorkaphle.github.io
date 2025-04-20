@@ -11,6 +11,7 @@ Imagine designing a terry towel or bandage—materials that need maximum fluid a
    - Simulate capillary rise profiles for varying angles (30°, 45°, 68°).  
    - Validate results with theoretical studies, achieving 98% accuracy.
 
+[COMSOL/capi;](COMSOL/Capillary%20Rise/linkedin%20post%202nd.mp4)
 
 **Key Findings:**  
 - Lower contact angles result in higher capillary rise.  
