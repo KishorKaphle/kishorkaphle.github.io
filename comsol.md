@@ -12,6 +12,7 @@ Imagine designing a terry towel or bandage—materials that need maximum fluid a
    - Validate results with theoretical studies, achieving 98% accuracy.
 
 [COMSOL/capi;](COMSOL/Capillary%20Rise/linkedin%20post%202nd.mp4)
+[theta = 0.7854](COMSOL/Capillary%20Rise/theta%20%3D%200.7854.gif)
 
 **Key Findings:**  
 - Lower contact angles result in higher capillary rise.  
