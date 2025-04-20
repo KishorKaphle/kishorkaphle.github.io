@@ -13,7 +13,7 @@
 - **Email**: kishorkaphle216@gmail.com
 
 ## Resume
-[Resume](credentials/resume.html)
+[Resume](credentials/resume.md)
 
 
 ## Sections
