@@ -13,7 +13,7 @@ Imagine designing a terry towel or bandage—materials that need maximum fluid a
 
 
 ## Watch the Video
-<iframe src="https://1drv.ms/v/c/3c0756bed86bd4d2/IQTXTe5yOVJaS52Ju0YPpBEmAar3bGykQiV628pQHzKEejk" width="500" height="500" frameborder="0" scrolling="no" allowfullscreen></iframe>
+<iframe src="https://1drv.ms/v/c/3c0756bed86bd4d2/IQTXTe5yOVJaS52Ju0YPpBEmAar3bGykQiV628pQHzKEejk" width="1000" height="500" frameborder="0" scrolling="no" allowfullscreen></iframe>
 
 
 **Key Findings:**  
