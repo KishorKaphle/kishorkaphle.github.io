@@ -12,9 +12,8 @@ Imagine designing a terry towel or bandage—materials that need maximum fluid a
    - Validate results with theoretical studies, achieving 98% accuracy.
 
 
+## Watch the Video
 <iframe src="https://1drv.ms/v/c/3c0756bed86bd4d2/IQTXTe5yOVJaS52Ju0YPpBEmAar3bGykQiV628pQHzKEejk" width="2880" height="2160" frameborder="0" scrolling="no" allowfullscreen></iframe>
-
-<iframe width="600" height="350" src="COMSOL/Capillary%20Rise/theta%20%3D%200.7854.gif" frameborder="0" allowfullscreen></iframe>
 
 
 **Key Findings:**  
