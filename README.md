@@ -18,9 +18,9 @@
 
 ## Sections
 Explore knowledge-sharing sections:
-- [COMSOL Tutorials](comsol.html)
-- [MATLAB Tutorials](matlab.html)
-- [Programming Tutorials](programming.html)
+- [COMSOL Tutorials](comsol.md)
+- [MATLAB Tutorials](matlab.md)
+- [Programming Tutorials](programming.md)
 
 ![Abstract](20220804_211143000_iOS.jpg)
 
