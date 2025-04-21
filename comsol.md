@@ -82,4 +82,42 @@ Proper implementation of these parameters ensures **accurate modeling of capilla
 ## **Need Help?**
 If you have any **questions** or **issues** simulating capillary rise or two-phase flow systems, feel free to **connect with me**! I’m happy to assist.
 
+# **Surface Acoustic Wave (SAW) Sensors in MEMS Applications**
 
+SAW (Surface Acoustic Wave) sensors are among the most popular **Microelectromechanical Systems (MEMS)**, widely used in:
+- **Automotive systems**
+- **Gadgets and consumer electronics**
+- **Bioinstrumentation**
+- **Industrial instrumentation systems**
+
+## **COMSOL Multiphysics Simulation of SAW Sensors**
+Below is an example of a **SAW sensor simulation** conducted using **COMSOL Multiphysics**.
+
+### **Study Process**
+1. **Finding suitable eigenmodes** for the system.
+2. **AC excitation of the IDT (Interdigitated Electrode)** at a selected frequency.
+
+The animation below illustrates how the **surface of piezoelectric material (LiNbO₃)** undergoes **periodic deformation** to generate a **surface wave (SAW).**
+
+![ppt gif](https://github.com/user-attachments/assets/85d90eb9-54ed-4b78-8f32-b9169edf0ea8)
+
+## **Working Principle**
+- The generated **SAW propagates** through the **test substrate**.
+- The **wave properties alter** as it passes, and these variations are detected at the receiving end.
+- This detection enables **characterization of the test substrate**.
+
+### **Enhancing the Sensor System**
+To make the sensing system **more robust and accurate**, redundant elements such as **reflectors** can be introduced at **both ends of the IDT section**. Additionally, **signal acquisition and processing** are required for full sensor functionality.
+
+## **Co-simulation with MATLAB/Simulink**
+For an even more advanced simulation, **MATLAB/Simulink** can be integrated to model the **entire SAW sensor system**.
+
+Stay tuned! I will be sharing a **co-simulation** study in an upcoming post.
+
+## **Need Help?**
+If you have any **questions** regarding:
+- SAW sensor modeling
+- Piezoelectric system simulations
+- MEMS applications in COMSOL
+
+Feel free to **reach out**! I’d be happy to **share, learn, and grow together**.
