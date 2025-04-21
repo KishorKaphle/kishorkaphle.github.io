@@ -25,91 +25,36 @@ Imagine designing a terry towel or bandage—materials that need maximum fluid a
 2. Define fluid properties correctly (fluid 1: gas, fluid 2: liquid).  
 3. Use "suppress backflow" and hydrostatic pressure compensation as needed.
 
-# Comprehensive Guide: Designing Surface Acoustic Wave (SAW) Devices in COMSOL
+## Unit Cell IDT SAW sensor Modeling using COMSOL Multiphysics
+# **IMPORTANT COMSOL MEMS SIMULATION TRICKS!**
 
-## Introduction
-Welcome to this tutorial on designing Surface Acoustic Wave (SAW) devices using COMSOL Multiphysics. This guide provides step-by-step instructions, covering essential aspects of SAW device modeling for efficient simulations.
+I am going to share some important and uncommon tricks that you rarely find elsewhere on the internet for MEMS simulation in COMSOL Multiphysics.
 
-SAW devices are crucial in various applications such as sensors and telecommunications. Their ability to convert electrical signals into mechanical waves makes them valuable in modern technology. However, accurate modeling of SAW devices requires careful attention to materials, geometries, and wave interactions.
+## **Challenges in Evaluating Electrical Response**
+If you are a COMSOL user, you may have noticed that evaluating electrical response at the output terminal can be tricky. Defining output terminals for measurement in COMSOL physics is often cumbersome. While **probes** can be defined, probing and measuring the output response from the terminal is fundamentally different.
 
-This tutorial will help you build and optimize SAW devices while addressing common design challenges.
+Defining terminals allows structured studies, such as **system control system design**, but assigning initial values and sources defeats the purpose of output signal analysis. To overcome this issue, I devised a simple and elegant trick.
+![image](https://github.com/user-attachments/assets/aa73411e-ae5d-45e6-a416-8613d19e040b)
 
-## Step 1: Setting Up the Model
-Start by launching COMSOL and selecting the **appropriate physics interfaces** for acoustics and piezoelectric materials. Define the SAW device structure, including:
-- **Substrate Material:** 128° YZ-cut Lithium Niobate (LiNbO₃)
-- **Interdigital Transducers (IDTs)**
-- **Reflectors**
+## **Solution: Using an Electric Circuit Module**
+The answer lies in **basic electric circuit principles**. We simply need to add a **voltage meter** across the output ports in the COMSOL model. Though integrating a multimeter into COMSOL geometry may sound complex, the implementation is straightforward with the **COMSOL Electric Circuit Module**.
 
-Ensure that the dimensions match the desired frequency range.
+However, I must note that the **circuit module interface** could be improved—currently, it lacks a graphical representation of where electrical elements (resistors, capacitors, sources, etc.) are placed. You must visualize the connections mentally or sketch a **schematic** in your notebook.
 
-## Step 2: Designing Interdigital Transducers (IDTs)
-IDTs generate and receive acoustic waves. Define their parameters carefully:
-- **Finger width:** 0.1 mm
-- **Spacing:** 0.2 mm
-- **Number of pairs:** Typically 10 or more
+## **Important Notes on Using the Electric Circuit Module**
+1. **Ground is usually node 0.** When connecting electrical elements, you directly connect them to nodes—**no need to worry about wiring.**
+2. **External terminals** must be defined in the electric circuit module. These terminals enable **communication between different physics** you have implemented.
 
-Proper IDT configuration ensures efficient wave propagation.
+## **Analyzing SAW Reflection on Boundaries**
+I am currently studying the effects of **SAW reflection on the boundaries**. With the **Electric Circuit Module** integrated, I was able to **perform an in-depth analysis** of my **SAW delay line model**.
 
-**Figure 1: IDT Configuration**  
-![IDT Configuration Placeholder](Image_URL)
+![image](https://github.com/user-attachments/assets/7f2ed8e9-7ed4-4662-873b-6a3665ee4ee3)
 
-## Step 3: Reflector Design
-Reflectors guide acoustic waves and maximize reflection efficiency.
+For this study:
+- There is **no perfectly matched layer (PML) setup** on the device's **sides**, unlike at the **bottom** (see geometry below).
+- Consequently, **reflection effects are pronounced** in the results (**see voltage profile, stress, and displacement values over different time points**).
 
-Recommended reflector dimensions:
-- **Width:** 1 mm
-- **Thickness:** 0.2 mm
-- **Material:** Same as the substrate for optimal performance
+## **Need Help?**
+If you have questions about **combining the Electric Circuit Module into a Multiphysics model**, or if you're interested in understanding **SAW reflection effects on device boundaries**, feel free to **reach out**. I’ll be happy to help!
 
-**Figure 2: Reflector Design**  
-![Reflector Design Placeholder](Image_URL)
-
-## Step 4: Material Properties Assignment
-Assign material properties for accurate simulations:
-- **Density:** 4,650 kg/m³
-- **Elastic Constants:** Specific to lithium niobate
-- **Piezoelectric Coefficients:** Defined based on substrate characteristics
-
-**Figure 3: Material Properties Setup**  
-![Material Properties Placeholder](Image_URL)
-
-## Step 5: Meshing Considerations
-Mesh refinement is critical for accurate simulation results. Suggested settings:
-- **Element size:** 0.05 mm to 0.2 mm
-- **Refinement:** High resolution near IDTs and reflectors
-
-Fine meshing enhances wave propagation accuracy.
-
-**Figure 4: Meshing Details**  
-![Meshing Details Placeholder](Image_URL)
-
-## Step 6: Defining Boundary Conditions
-Set boundary conditions to simulate realistic device behavior:
-- **Fixed constraints** on substrate edges to prevent unwanted displacement
-- **Electrical potential definitions** on IDTs to generate and receive waves
-
-**Figure 5: Boundary Condition Setup**  
-![Boundary Conditions Placeholder](Image_URL)
-
-## Step 7: Running Simulations
-Execute the simulation and analyze wave propagation behavior. Monitor:
-- **Resonant frequencies** (typically around 10 MHz)
-- **Wave reflections and transmission efficiency**
-- **Signal strength variations along the device**
-
-Fine-tune material properties, geometries, and electrical parameters based on results.
-
-**Figure 6: Simulation Results**  
-![Simulation Results Placeholder](Image_URL)
-
-## Critical Design Parameters
-Optimize SAW device performance by considering:
-- **Natural Frequencies:** Ensure resonance in the desired operating range
-- **Losses:** Reduce acoustic and electrical losses via proper material selection
-- **Environmental Effects:** Temperature, substrate quality, and electrode thickness impact efficiency
-
-## Conclusion
-This tutorial provides a structured approach to designing SAW devices in COMSOL. By following these steps and fine-tuning key parameters, you can create optimized SAW devices suitable for various applications.
-
----
 
