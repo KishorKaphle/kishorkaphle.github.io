@@ -48,7 +48,8 @@ However, I must note that the **circuit module interface** could be improved—c
 ## **Analyzing SAW Reflection on Boundaries**
 I am currently studying the effects of **SAW reflection on the boundaries**. With the **Electric Circuit Module** integrated, I was able to **perform an in-depth analysis** of my **SAW delay line model**.
 
-![image](https://github.com/user-attachments/assets/475853e4-425e-40ce-ad06-104affd09e53)
+![image](https://github.com/user-attachments/assets/ddb2e983-d1c4-4946-b64f-5d35efe02bfa)
+
 
 
 For this study:
