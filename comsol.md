@@ -137,15 +137,15 @@ Begin by creating a new model in COMSOL and selecting the appropriate physics in
 
 128o YZ-LiNbO3 Piezoelectric material
 ![image](https://github.com/user-attachments/assets/2b91d1b8-4b6c-4799-ba87-b670788ca452)
-
+-------------------------------------------------------------------------------------------------
 ![image](https://github.com/user-attachments/assets/220dfc22-6913-4404-b7d6-ada65409b335)
-
+-------------------------------------------------------------------------------------------------
 ![image](https://github.com/user-attachments/assets/a22a9dbb-1ab6-419f-aeeb-8f959cd8522d)
-
+-------------------------------------------------------------------------------------------------
 ![image](https://github.com/user-attachments/assets/238a34df-c61f-4f40-9afe-d8a51f6f72ab)
-
+-------------------------------------------------------------------------------------------------
 ![image](https://github.com/user-attachments/assets/d6550a1c-7b67-4daf-a1cb-d4f9bf13fdc3)
-
+-------------------------------------------------------------------------------------------------
 ![image](https://github.com/user-attachments/assets/f1102de6-5909-401a-bd81-883449923771)
-
+-------------------------------------------------------------------------------------------------
 Next step is to analyze S parameters and Admittance to select working central frequency. 
