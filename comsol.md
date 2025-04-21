@@ -48,7 +48,8 @@ However, I must note that the **circuit module interface** could be improved—c
 ## **Analyzing SAW Reflection on Boundaries**
 I am currently studying the effects of **SAW reflection on the boundaries**. With the **Electric Circuit Module** integrated, I was able to **perform an in-depth analysis** of my **SAW delay line model**.
 
-![image](https://github.com/user-attachments/assets/7f2ed8e9-7ed4-4662-873b-6a3665ee4ee3)
+![image](https://github.com/user-attachments/assets/475853e4-425e-40ce-ad06-104affd09e53)
+
 
 For this study:
 - There is **no perfectly matched layer (PML) setup** on the device's **sides**, unlike at the **bottom** (see geometry below).
