@@ -125,3 +125,27 @@ If you have any **questions** regarding:
 - MEMS applications in COMSOL
 
 Feel free to **reach out**! I’d be happy to **share, learn, and grow together**.
+
+##SAW Delay line design using COMSOL Multiphysics step-by-step pictorically
+
+![image](https://github.com/user-attachments/assets/fcbe0967-695c-4e8c-ac90-f797284b4f0d)
+Reference: https://www.researchgate.net/publication/329908918_Modelling_and_simulation_of_SAW_delay_line_sensors_with_COMSOL_Multiphysics
+
+Step 1: Setting Up the Model
+Begin by creating a new model in COMSOL and selecting the appropriate physics interfaces for acoustics and piezoelectric devices. Define the geometry of your SAW device, including the substrate material, the reflectors, and the Interdigital Transducers (IDTs). 
+
+
+128o YZ-LiNbO3 Piezoelectric material
+![image](https://github.com/user-attachments/assets/2b91d1b8-4b6c-4799-ba87-b670788ca452)
+
+![image](https://github.com/user-attachments/assets/220dfc22-6913-4404-b7d6-ada65409b335)
+
+![image](https://github.com/user-attachments/assets/a22a9dbb-1ab6-419f-aeeb-8f959cd8522d)
+
+![image](https://github.com/user-attachments/assets/238a34df-c61f-4f40-9afe-d8a51f6f72ab)
+
+![image](https://github.com/user-attachments/assets/d6550a1c-7b67-4daf-a1cb-d4f9bf13fdc3)
+
+![image](https://github.com/user-attachments/assets/f1102de6-5909-401a-bd81-883449923771)
+
+Next step is to analyze S parameters and Admittance to select working central frequency. 
