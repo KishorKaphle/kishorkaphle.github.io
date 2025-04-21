@@ -58,3 +58,28 @@ For this study:
 If you have questions about **combining the Electric Circuit Module into a Multiphysics model**, or if you're interested in understanding **SAW reflection effects on device boundaries**, feel free to **reach out**. I’ll be happy to help!
 
 
+## COMSOL Multiphysics simulation of Capillary Rise on a tube
+
+# **Capillary Rise in COMSOL Multiphysics**
+
+Capillary rise is a **spontaneous action** in which a liquid rises in a narrow tube due to fluid surface tension and the combination of **cohesive forces** of the liquid and **adhesive forces** between the liquid and tube material.
+
+## **COMSOL Multiphysics Simulation**
+I have conducted a **COMSOL Multiphysics simulation** to model the natural capillary rise action of water in a thin tube. COMSOL Support also provides a helpful tutorial on capillary filling, which you can find here:  
+🔗 [Capillary Filling Tutorial](https://lnkd.in/gMHAf59E)
+
+### **Important Considerations for Capillary Rise Simulations**
+When simulating capillary rise, it is crucial to select appropriate **boundary conditions**, including:
+- **Wetted wall conditions**
+- **Fluid inlet/outlet definitions**
+- **Contact angle selection**
+
+![Capillary ppt for linkedIn](https://github.com/user-attachments/assets/6590fa78-72ce-478a-9ebb-40cfd6250a54)
+
+
+Proper implementation of these parameters ensures **accurate modeling of capillary phenomena**.
+
+## **Need Help?**
+If you have any **questions** or **issues** simulating capillary rise or two-phase flow systems, feel free to **connect with me**! I’m happy to assist.
+
+
