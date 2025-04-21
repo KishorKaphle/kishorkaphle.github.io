@@ -36,6 +36,8 @@ If you are a COMSOL user, you may have noticed that evaluating electrical respon
 Defining terminals allows structured studies, such as **system control system design**, but assigning initial values and sources defeats the purpose of output signal analysis. To overcome this issue, I devised a simple and elegant trick.
 ![image](https://github.com/user-attachments/assets/aa73411e-ae5d-45e6-a416-8613d19e040b)
 
+![image](https://github.com/user-attachments/assets/065ef09b-011f-4337-8fab-5d710b72e55b)
+
 ## **Solution: Using an Electric Circuit Module**
 The answer lies in **basic electric circuit principles**. We simply need to add a **voltage meter** across the output ports in the COMSOL model. Though integrating a multimeter into COMSOL geometry may sound complex, the implementation is straightforward with the **COMSOL Electric Circuit Module**.
 
