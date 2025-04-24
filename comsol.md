@@ -160,4 +160,14 @@ Begin by creating a new model in COMSOL and selecting the appropriate physics in
 -------------------------------------------------------------------------------------------------
 
 
-Next step is to analyze S parameters and Admittance to select working central frequency. 
+Next step is to analyze S parameters and Admittance to select working central frequency.
+
+#Comparision of shorting and not shorting the reflectors
+
+![S11S21Comparision](https://github.com/user-attachments/assets/5f8c498e-5bca-4500-a99f-95623a4eaf17)
+
+![Y11Y21Comparision](https://github.com/user-attachments/assets/3f575fbf-1926-4450-ab79-9c62bfddfbc4)
+
+![TotalElectricEnergyComparision](https://github.com/user-attachments/assets/988b5778-10ca-497b-9508-0446a0cbd17c)
+
+
