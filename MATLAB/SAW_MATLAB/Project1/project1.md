@@ -90,4 +90,4 @@ The MATLAB model achieves **<1% error in bandwidth prediction** and provides a r
 | LiNbO3 | `3960` | `28` |
 
 
-[Get the code](MATLAB/SAW_MATLAB/Project1/code.m)
+[Get the code](https://github.com/KishorKaphle/kishorkaphle.github.io/blob/main/MATLAB/SAW_MATLAB/Project1/code.m)
