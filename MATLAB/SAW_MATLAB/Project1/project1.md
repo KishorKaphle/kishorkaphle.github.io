@@ -1,7 +1,7 @@
 # Technical Report: SAW Filter Design Optimization for Wireless Applications
 **(Based on MATLAB Modeling and Experimental Validation)**
 
-Link to original paper: https://dl.acm.org/doi/10.5555/1376148.1376152
+[Link to original paper](https://dl.acm.org/doi/10.5555/1376148.1376152)
 ## 1. Executive Summary
 This report details the design and analysis of Surface Acoustic Wave (SAW) filters for wireless communication systems. Key outcomes include:
 - Development of a MATLAB model for SAW filter response prediction
