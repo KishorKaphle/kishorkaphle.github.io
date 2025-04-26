@@ -20,7 +20,7 @@ Explore knowledge-sharing sections:
 - [Programming Tutorials](programming.md)
 
 ## My Photography
-[Photos]([My%Photography/photos.md](https://github.com/KishorKaphle/kishorkaphle.github.io/blob/main/My%20Photography/photos.md))
+[Photos](My%Photography/photos.md)
 
 ## I write poem sometimes and this is one of my favorite!
 
