@@ -47,13 +47,6 @@ The model integrates:
 | `Ga0 = 8 * k^2 * f0 * C0 * W * N` | Radiation conductance |
 | `C0 = 2 * (6.5 * η² + 1.08 * η + 2.37) * (ε_r + 1)` | Capacitance |
 
-### 3.2 Performance Metrics
-
-| **Parameter** | **Value** |
-|--------------|----------|
-| Bandwidth (BW) | `25.1 MHz` (3-dB threshold) |
-| Quality Factor (Q) | `f0 / BW = 35.9` |
-| Insertion Loss (IL) | `-2.15 dB` |
 
 ## 4. Results & Analysis
 
