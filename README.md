@@ -1,10 +1,13 @@
-## Hello there! I am happy that you made it here!
+# Hi, this is Kishor and I am happy that you are here!
 
-## I am passionate at leveraging Multiphysics simulation, MATLAB, CAD, Machine Learning, Mathematical Modeling, and Python programming for solving complicated technical problems. I have spearheaded dozens of engineering modeling and simulation projects, and authored to seven research publications. With an advanced degree in electrical and computer engineering, I specialized in Multiphysics modelling, algorithm development, system simulation, data analysis, quality control, and product prototyping. Dedicated to quality control and continuous learning, I am aspiring to be an expert in engineering system & process design, modeling, and computation by utilizing my wealth of multi-disciplinary knowledge base.
+## About Me
+### I am passionate at leveraging Multiphysics simulation, MATLAB, CAD, Machine Learning, Mathematical Modeling, and Python programming for solving complicated technical problems. I have spearheaded dozens of engineering modeling and simulation projects, and authored to seven research publications. With an advanced degree in electrical and computer engineering, I specialized in Multiphysics modelling, algorithm development, system simulation, data analysis, quality control, and product prototyping. Dedicated to quality control and continuous learning, I am aspiring to be an expert in engineering system & process design, modeling, and computation by utilizing my wealth of multi-disciplinary knowledge base.
 
+## Education
+### M.S in Electrical & Computer Engineering, North Dakota State University (NDSU), GPA: 4.0
+### B.E in Electrical Engineering, Pulchowk Campus, IOE Tribhuvan University, GPA: 3.7
 
 ## Publications & Contact
-
 - **Google Scholar**: [Kishor Kaphle](https://scholar.google.com)
 - **LinkedIn**: [Kishor Kaphle](https://www.linkedin.com/in/kishorkaphle/)
 - **Email**: kishorkaphle216@gmail.com
