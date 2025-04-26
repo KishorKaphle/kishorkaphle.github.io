@@ -12,9 +12,6 @@
 - **LinkedIn**: [Kishor Kaphle](https://www.linkedin.com/in/kishorkaphle/)
 - **Email**: kishorkaphle216@gmail.com
 
-## Resume
-[Download my Resume](https://github.com/KishorKaphle/kishorkaphle.github.io/blob/main/KishorKaphle_Resume2025.pdf)
-
 
 ## Sections
 Explore knowledge-sharing sections:
