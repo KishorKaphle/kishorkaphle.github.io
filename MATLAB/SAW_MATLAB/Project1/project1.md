@@ -96,9 +96,5 @@ The MATLAB model achieves **<1% error in bandwidth prediction** and provides a r
 | ZnO/SiO2/Si | `3480` | `8.5` |
 | LiNbO3 | `3960` | `28` |
 
-### A2. Figure Placement Guide
-1. **Figure 1**: Frequency response plot (log scale, combined response)
-2. **Figure 2**: Parametric sensitivity bar charts (BW vs. `N_in/d_c`)
-
 
 [Get the code](MATLAB/SAW_MATLAB/Project1/code.m)
